@@ -8,7 +8,7 @@ npm ci
 ./node_modules/.bin/webpack --config webpack.config.js --progress
 ```
 
-then, look in the dist/empty_component.bundle.js file - at the bottom, the following lines are rendered:
+then, look in the `dist/empty_component.bundle.js` file - at the bottom, the following lines are rendered:
 ```js
 /* harmony default export */ const empty_component = (component.exports);
 empty_component = __webpack_exports__.default;
