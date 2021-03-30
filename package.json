@@ -1,7 +1,4 @@
 {
-  "bugs": {
-    "url": "https://github.com/veritonic/veritonic/issues"
-  },
   "dependencies": {
     "vue": "^2.6.12",
     "vue-loader": "^15.9.6",
