@@ -2,8 +2,9 @@
 
 Minimal reproduction for build issue with re-assigning a const variable
 
-first, build
+first, install deps and build
 ```bash
+npm ci
 ./node_modules/.bin/webpack --config webpack.config.js --progress
 ```
 
