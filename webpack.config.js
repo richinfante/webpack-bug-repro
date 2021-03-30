@@ -31,7 +31,7 @@ module.exports = [{
     },
     minimizer: [
       new TerserPlugin({
-        exclude: /.*/
+        exclude: /.*/ // ! NOTE: disabling terser to make output easier to read
       })
     ]
   },
@@ -62,18 +62,6 @@ module.exports = [{
         include: [
           resolve('src'),
           resolve('node_modules/webpack-dev-server/client')
-        ]
-      },
-      {
-        test: /\.s?css$/,
-        use: [
-          'vue-style-loader',
-          {
-            loader: 'css-loader',
-            options: {
-              esModule: false
-            }
-          }
         ]
       }
     ]
