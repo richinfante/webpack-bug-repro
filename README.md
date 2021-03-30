@@ -14,7 +14,7 @@ then, run `tail -n 10 dist/empty_component.bundle.js` - at the bottom of the fil
 empty_component = __webpack_exports__.default;
 ```
 
-If you load / serve this to a browser (run `python -m http.server 8888` and open `http://localhost:8888/index.html`), this throws the following error:
+If you load / serve this to a browser (run `python -m http.server 8888` and open `http://localhost:8888/index.html`), this throws the following error in the console:
 ```
 Uncaught TypeError: invalid assignment to const 'empty_component'
 ```
